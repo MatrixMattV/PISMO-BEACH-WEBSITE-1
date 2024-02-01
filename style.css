@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-lindsey-garrett-13862472.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    padding: 28px 100px;
+}
+
+h3 {
+    font-size: 25px;
+    color: black;
+    user-select: none;
+}
+
+.content {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    max-width: 900px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+}
